@@ -1,1 +1,1 @@
-java -DspringAot=true -agentlib:native-image-agent=config-output-dir=src/main/resources/META-INF/native-image -jar ./target/graalvm-web-springboot2-1.0.jar
+java -DspringAot=true -agentlib:native-image-agent=config-output-dir=src/main/resources/META-INF/native-image -jar ./target/mj-admin-1.0.jar

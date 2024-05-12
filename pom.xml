@@ -8,8 +8,8 @@
         <relativePath/> <!-- lookup parent from repository -->
     </parent>
 
-    <groupId>com.shin.graalvm</groupId>
-    <artifactId>graalvm-web-springboot2</artifactId>
+    <groupId>com.mj.admin</groupId>
+    <artifactId>mj-admin</artifactId>
     <version>1.0</version>
     <packaging>jar</packaging>
 
@@ -25,7 +25,7 @@
         -->
         <native.maven.plugin.version>0.9.27</native.maven.plugin.version>
         <spring.native.plugin.version>0.12.2</spring.native.plugin.version>
-        <start-class>com.shin.graalvm.DemoApplication</start-class>
+        <start-class>com.mj.admin.Application</start-class>
     </properties>
 
     <dependencies>
@@ -69,6 +69,12 @@
             <groupId>xyz.erupt</groupId>
             <artifactId>erupt-web</artifactId>
             <version>1.12.12</version>
+        </dependency>
+        <dependency>
+            <groupId>javax</groupId>
+            <artifactId>javaee-api</artifactId>
+            <version>8.0.1</version>
+            <scope>provided</scope>
         </dependency>
     </dependencies>
 

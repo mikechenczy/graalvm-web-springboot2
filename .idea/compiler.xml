@@ -6,13 +6,19 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="graalvm-web-springboot2" />
+        <module name="mj-admin" />
       </profile>
     </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="graalvm-web-springboot2" target="17" />
+      <module name="MJ-Admin" target="17" />
+    </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="MJ-Admin" options="-parameters" />
       <module name="graalvm-web-springboot2" options="-parameters" />
+      <module name="mj-admin" options="-parameters" />
     </option>
   </component>
 </project>

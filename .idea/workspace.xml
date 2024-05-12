@@ -4,7 +4,26 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e21bad7e-1155-4b84-9ce8-060352ec4dfb" name="Changes" comment="" />
+    <list default="true" id="e21bad7e-1155-4b84-9ce8-060352ec4dfb" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/old.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/META-INF/native-image/jni-config.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/META-INF/native-image/predefined-classes-config.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/META-INF/native-image/proxy-config.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/META-INF/native-image/reflect-config.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/META-INF/native-image/resource-config.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/META-INF/native-image/serialization-config.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/native-image-agent.bat" beforeDir="false" afterPath="$PROJECT_DIR$/native-image-agent.bat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/shin/graalvm/DemoApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/mj/admin/Application.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/image/graalvm-logo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/image/graalvm_rabbit_icon.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/Home.html" beforeDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -17,6 +36,9 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="MavenImportPreferences">
     <option name="importingSettings">
       <MavenImportingSettings>
@@ -24,6 +46,7 @@
       </MavenImportingSettings>
     </option>
   </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -36,6 +59,7 @@
     "RequestMappingsPanelWidth1": "75",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "WebServerToolWindowFactoryState": "false",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
@@ -54,16 +78,24 @@
     </option>
   </component>
   <component name="RunManager" selected="Spring Boot.DemoApplication">
+    <configuration name="MJ-Admin" type="GraalVmRunConfiguration" factoryName="GraalVmBinary">
+      <run-attributes version="1" native-image="M:\Program\graalvm-web-springboot2\target/MJ-Admin" />
+      <method v="2" />
+    </configuration>
     <configuration name="graalvm-web-springboot2" type="GraalVmRunConfiguration" factoryName="GraalVmBinary">
       <run-attributes version="1" native-image="M:\Program\graalvm-web-springboot2\target/graalvm-web-springboot2" />
       <method v="2" />
     </configuration>
-    <configuration name="DemoApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
-      <module name="graalvm-web-springboot2" />
-      <option name="SPRING_BOOT_MAIN_CLASS" value="com.shin.graalvm.DemoApplication" />
+    <configuration name="mj-admin" type="GraalVmRunConfiguration" factoryName="GraalVmBinary">
+      <run-attributes version="1" native-image="M:\Program\graalvm-web-springboot2\target/mj-admin" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Application" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="mj-admin" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.mj.admin.Application" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.shin.graalvm.*" />
+          <option name="PATTERN" value="com.mj.admin.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -71,13 +103,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Springboot2Application" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
-      <module name="graalvm-web-springboot2" />
-      <option name="SPRING_BOOT_MAIN_CLASS" value="com.shin.graalvm.Springboot2Application" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+    <list>
+      <item itemvalue="GraalVM Native Image.MJ-Admin" />
+      <item itemvalue="GraalVM Native Image.mj-admin" />
+      <item itemvalue="GraalVM Native Image.graalvm-web-springboot2" />
+      <item itemvalue="Spring Boot.DemoApplication" />
+    </list>
     <recent_temporary>
       <list>
         <item itemvalue="Spring Boot.DemoApplication" />
@@ -92,7 +123,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1715473498798</updated>
-      <workItem from="1715473501396" duration="706000" />
+      <workItem from="1715473501396" duration="6455000" />
     </task>
     <servers />
   </component>
